@@ -1,0 +1,140 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header,main,footer{
+    padding: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(226, 172, 105);
+    background-size: 100%;
+}
+header img{
+    width: 150px;
+}
+nav{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+main img{
+    width: 100%;
+    border: 3px solid;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.aboutus{
+text-align: center;
+}
+.descrip{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.descrip img{
+    width: 50%;
+}
+footer{
+    text-align: center;
+    background-color: rgb(141, 100, 49);
+}
+#menu{
+    float:right;
+    font-size: 30px;
+    padding:20px;
+    margin: 30px;
+    flex:6;
+}
+#menu:hover{
+    color:yellow;
+    padding: 2px;
+}
+#top{
+    background-color: rgb(255, 255, 255);
+    background-size: 100%;
+    background-image: url("https://as2.ftcdn.net/v2/jpg/07/69/62/99/1000_F_769629905_QSbPhuGU5dCf82LLAw2AgWnKNuQGugeV.jpg");
+    display: flex;
+    height: 20 px;            
+    padding:50px;
+}
+#logo{
+    float:left;
+}
+#foot{
+
+    margin-top: 40px;
+}
+#box1{
+    margin: 20px 0px;
+    padding: 5px 170px;
+    background-color: aqua;
+    background-image: url("https://img.freepik.com/free-vector/detailed-gamer-room-illustration_23-2148923561.jpg?t=st=1720336925~exp=1720340525~hmac=003ef074b827f78caf279c63b8fd95059da47dadffddd3fb3e0c81ceeaf1eabc&w=900");
+}
+#align{
+    margin: 50px 30%  ;
+}
+#bold{
+    text-align: center;
+}
+#sub{
+    float:right;
+    
+    
+}
+#buttons{
+    padding-right: 44%;
+}
+button{
+    background-color: black;
+    color:white;
+    margin:12px;
+    padding:12px;
+    border-radius:5px;
+    
+}
+button:hover{
+    background-color: white;
+    color:black;
+    padding: 15px;
+    
+}
+#l1{
+    float: right;
+    padding: 10px;
+   }
+    #l1:focus{
+        background-color: rgb(255, 0, 170);  
+    }
+    #foot1{
+        margin-top: 160px;
+    }
+    #title{
+        color: rgb(255, 255, 255);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        margin: 0px;
+        padding:0px 20px;
+        
+    }
+    
