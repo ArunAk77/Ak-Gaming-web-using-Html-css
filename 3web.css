@@ -1,7 +1,10 @@
+@media(min-width:378px) and (max-width:2000px)
+{
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    margin-bottom: 12%;
+     padding: 0px;
 }
 header,main,footer{
     padding: 20px;
@@ -60,6 +63,7 @@ footer{
     background-color: rgb(141, 100, 49);
 }
 #menu{
+    color: white ;
     float:right;
     font-size: 30px;
     padding:20px;
@@ -71,7 +75,7 @@ footer{
     padding: 2px;
 }
 #top{
-    background-color: rgb(255, 255, 255);
+    background-color: antiquewhite;
     background-size: 100%;
     background-image: url("https://as2.ftcdn.net/v2/jpg/07/69/62/99/1000_F_769629905_QSbPhuGU5dCf82LLAw2AgWnKNuQGugeV.jpg");
     display: flex;
@@ -81,8 +85,7 @@ footer{
 #logo{
     float:left;
 }
-#foot{
-
+#foot{ 
     margin-top: 40px;
 }
 #box1{
@@ -128,6 +131,8 @@ button:hover{
     }
     #foot1{
         margin-top: 160px;
+        padding: 20px;  
+        margin-bottom: 5px;
     }
     #title{
         color: rgb(255, 255, 255);
@@ -137,4 +142,10 @@ button:hover{
         padding:0px 20px;
         
     }
-    
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%; 
+        background-color: rgb(190, 124, 42);
+    }
+}
